@@ -13,7 +13,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class TestClass3 {
+public class Base {
 	
 	
 	private static int MAX_PAGES_VISITED;// = 500;
@@ -30,7 +30,7 @@ public class TestClass3 {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
 		System.out.println("Please wait....");
-		TestClass3 caller = new TestClass3();
+		Base caller = new Base();
 		caller.innitiator();
 		caller.traversAwebSites();
 		
