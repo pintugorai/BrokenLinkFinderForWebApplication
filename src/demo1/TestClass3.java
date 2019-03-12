@@ -48,7 +48,7 @@ public class TestClass3 {
 	private void innitiator() {
 		Properties prop = new Properties();
 		try {
-			prop.load(new FileInputStream(System.getProperty("user.dir") + "\\src\\demo1\\Config.properties"));
+			prop.load(new FileInputStream(System.getProperty("user.dir") + "\\config\\Config.properties"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
